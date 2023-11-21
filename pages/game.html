@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/game.css">
+
+    <script defer src="../js/game.js"></script>
+
+    <title>Memory Game</title>
+</head>
+<body>
+    <main>
+        <header>
+            <span class="player"></span>
+            <span class="timer-display"><ion-icon name="alarm-outline" class="clock-icon"></ion-icon><span class="timer">0:0</span></span>
+        </header>
+        <div class="grid"></div>
+
+        <menu class="popup closed">
+            <span class="popup_msg"></span>
+            <span class="popup_time"></span>
+            <button class="btn startOver">Jogar novamente</button>
+            <a href="../index.html" class="btn backHome">Voltar a página inicial</a>
+        </menu>
+    </main>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>
